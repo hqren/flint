@@ -10,9 +10,10 @@ import time
 from StringIO import StringIO
 from datetime import datetime
 try:
-    import json
-except ImportError:
     import simplejson as json
+except ImportError:
+    import json
+    
 import traceback
 
 __VERSION__ = "0.1.8"
