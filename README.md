@@ -43,7 +43,7 @@ www.360.cn      101.4.60.193    2014-09-23 10:20:28
 ## Usage
 
 ```
-Usage: ./flint [<rrset>|<rdata>] [<domain>|<ip>] [type] [options]
+Usage: ./flint <rrset>|<rdata> <domain>|<ip> <type> [options]
     ./flint rrset www.360.cn
     ./flint rdata 101.4.60.193 A
     ./flint rrset 360.cn -l 100
